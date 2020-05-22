@@ -7,6 +7,7 @@
 
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <body>
     <h1>STOCK PROFIT CALCULATOR REPORT</h1>
@@ -30,7 +31,7 @@
     <p><strong>Cost:</strong> ${{ cost }}</p>
     <p><strong>Cost Details:</strong><br>
        Total Purchase Price <br>
-       {{ allotment }} x %{{ initial_share_price}} = ${{ initial_purchase_cost }} <br>
+       {{ allotment }} x ${{ initial_share_price}} = ${{ initial_purchase_cost }} <br>
        Buy Commission = ${{ buy_commission }} <br>
        Sell Commission = ${{ sell_commission }} <br>
        Tax on Capital Gain = {{ capital_gain_tax }}% of ${{ profits }} = ${{ tax_on_capital_gain }}
